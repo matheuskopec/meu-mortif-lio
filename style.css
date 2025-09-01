@@ -1,0 +1,111 @@
+/* estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* menu de navegação */
+nav {
+    background-color: #222;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+/* container do conteúdo */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* título */
+h1 {
+    color: #0077cc;
+    text-align: center;
+}
+
+/* parágrafos */
+p {
+    color: #555;
+    font-size: 16px;
+}
+/* imagem do Matheus Kopec ****/
+.imagem-github {
+    width: 200px;         /* largura do quadrado */
+    height: 200px;        /* altura do quadrado */
+    object-fit: cover;    /* corta a imagem proporcionalmente para preencher o quadrado */
+    border-radius: 10px;  /* cantos arredondados */
+    display: block;       /* transforma em bloco para centralizar */
+    margin: 20px auto;    /* centraliza horizontalmente e dá espaço acima/baixo */
+    border: 2px solid #0077cc; /* borda opcional para destaque */
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Formação - Matheus Kopec</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Ajuste básico para a imagem */
+    .img-formacao {
+      display: block;
+      margin: 20px auto; /* centraliza */
+      max-width: 400px;  /* controla tamanho */
+      border-radius: 10px; /* deixa cantos arredondados */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* sombra leve */
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Sobre mim</a>
+    <a href="formacao.html">Formação</a>
+    <a href="portfolio.html">Portfólio</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+
+  <div class="container">
+    <h1>Formação Acadêmica</h1>
+    <ul>
+      <li>Ensino Superior em Técnologia em Alimentos - UTFPR</li>
+      <li>Pós Graduação Completa em <strong>Gestão
+      e Analise Estratégica de Dados - Puc Minas</strong></li>
+      <li>Graduando em <strong>Ciências de Dados - Uninter </strong></li>
+    </ul>
+
+    <h2>Idiomas</h2>
+    <ul>
+      <li>Português - Nativo</li>
+      <li>Inglês - Iniciante A1 indo para A2</li>
+    </ul>
+
+    <!-- Imagem agora formatada -->
+    <img src="Ciência de Dados.png" alt="Ciência de Dados" class="img-formacao">
+  </div>
+</body>
+</html>
+.img-formacao {
+  display: block;
+  margin: 20px auto;
+  max-width: 80%; /* no máximo 80% da largura da tela */
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
